@@ -80,31 +80,15 @@ a {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
   text-decoration: none;
   font-weight: 800;
   line-height: 1.1;
 }
 
-.brand-mark {
-  width: 40px;
-  height: 40px;
-  display: grid;
-  place-items: center;
-  border-radius: var(--radius);
-  color: var(--white);
-  background: var(--teal);
-  font-size: 0.95rem;
-  box-shadow: 0 10px 20px rgba(15, 118, 110, 0.2);
-}
-
-.brand-text span {
+.brand-logo {
   display: block;
-  color: var(--muted);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0;
+  width: 190px;
+  height: auto;
 }
 
 .nav-menu {
@@ -1040,6 +1024,22 @@ textarea:focus {
   align-items: center;
 }
 
+.footer-brand {
+  display: grid;
+  gap: 8px;
+}
+
+.footer-logo {
+  width: 160px;
+  height: auto;
+}
+
+.footer-brand p {
+  max-width: 520px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
 .footer-links {
   display: flex;
   flex-wrap: wrap;
@@ -1225,8 +1225,8 @@ textarea:focus {
     font-size: 1.65rem;
   }
 
-  .brand-text span {
-    display: none;
+  .brand-logo {
+    width: 160px;
   }
 
   .button,

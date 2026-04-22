@@ -1,16 +1,19 @@
-# Michael Ferrari Consulting Website
+# Clarpoint Website
 
-Static HTML website for technical delivery consulting, responsive website builds, PM guidance, project setup, executive communications, red-to-green recovery support, hosting/launch support, and all-in delivery readiness consulting.
+Static HTML website for Clarpoint, an advisory firm focused on project clarity, executive communication, delivery support, responsive website builds, governance, recovery, hosting/launch support, and all-in delivery readiness consulting.
 
 ## Files
 
 - `index.html` - home page
-- `services.html` - consolidated consulting packages for all-in delivery, responsive websites, project plans, communications, governance, and PM guidance
-- `about.html` - Michael Ferrari bio and positioning
+- `services.html` - consolidated consulting packages for advisory support, responsive websites, project plans, communications, governance, and PM guidance
+- `about.html` - Clarpoint positioning and Michael Ferrari background
 - `results.html` - anonymized commercial/federal/enterprise proof points, recovery examples, and responsive website delivery examples
 - `contact.html` - inquiry form
 - `styles.css` - shared visual design and responsive layout
 - `script.js` - mobile navigation and contact form status message
+- `assets/clarpoint-logo.png` - cropped Clarpoint logo used in the site header
+- `assets/clarpoint-mark.png` - square Clarpoint mark used as the favicon
+- `assets/clarpoint-logo-source.png` - original source image for future logo exports
 
 ## Publish With Static Hosting
 
