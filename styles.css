@@ -146,7 +146,7 @@ a {
 }
 
 .section {
-  padding: 88px 0;
+  padding: 72px 0;
 }
 
 .section.tight {
@@ -183,13 +183,13 @@ h3 {
 }
 
 h1 {
-  max-width: 850px;
-  font-size: clamp(2.45rem, 6vw, 5.35rem);
+  max-width: 760px;
+  font-size: clamp(2.15rem, 4.8vw, 4.2rem);
 }
 
 h2 {
-  max-width: 760px;
-  font-size: clamp(2rem, 4vw, 3.45rem);
+  max-width: 700px;
+  font-size: clamp(1.65rem, 3vw, 2.65rem);
 }
 
 h3 {
@@ -203,7 +203,7 @@ p {
 .lead {
   max-width: 720px;
   color: var(--muted);
-  font-size: clamp(1.05rem, 2vw, 1.28rem);
+  font-size: clamp(1rem, 1.5vw, 1.18rem);
 }
 
 .body-copy {
@@ -217,7 +217,7 @@ p {
   min-height: calc(100vh - 74px);
   display: grid;
   align-items: center;
-  padding: 64px 0 72px;
+  padding: 54px 0 64px;
   background:
     linear-gradient(90deg, rgba(217, 224, 220, 0.55) 1px, transparent 1px),
     linear-gradient(0deg, rgba(217, 224, 220, 0.55) 1px, transparent 1px),
@@ -712,7 +712,7 @@ p {
 }
 
 .page-hero {
-  padding: 86px 0 72px;
+  padding: 68px 0 58px;
   background:
     linear-gradient(90deg, rgba(217, 224, 220, 0.5) 1px, transparent 1px),
     linear-gradient(0deg, rgba(217, 224, 220, 0.5) 1px, transparent 1px),
@@ -751,7 +751,7 @@ p {
 }
 
 .service-section {
-  padding: 70px 0;
+  padding: 58px 0;
   border-bottom: 1px solid var(--line);
 }
 

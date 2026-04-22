@@ -5,9 +5,9 @@ Static HTML website for technical delivery consulting, responsive HTML/CSS websi
 ## Files
 
 - `index.html` - home page
-- `services.html` - 1:1 PM guidance, project setup, responsive website delivery, status updates, plans, governance, communications, deployment, and all-in consulting packages
+- `services.html` - consolidated consulting packages for all-in delivery, responsive websites, project plans, communications, governance, and PM guidance
 - `about.html` - Michael Ferrari bio and positioning
-- `results.html` - anonymized commercial/federal/enterprise results, red-to-green recovery examples, responsive website delivery examples, and sample template
+- `results.html` - anonymized commercial/federal/enterprise proof points, recovery examples, and responsive website delivery examples
 - `contact.html` - inquiry form
 - `styles.css` - shared visual design and responsive layout
 - `script.js` - mobile navigation and form endpoint guard
