@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Contact Michael Ferrari to discuss technical delivery consulting, responsive HTML/CSS websites, PM guidance, project setup, governance, recovery, deployment, or executive communication support.">
+    <meta name="description" content="Contact Michael Ferrari for technical delivery consulting, responsive websites, PM guidance, project setup, governance, recovery, launch, or executive communication support.">
     <title>Contact | Michael Ferrari</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,7 +36,7 @@
         <div class="container">
           <p class="eyebrow">Contact</p>
           <h1>Let's discuss your project</h1>
-          <p class="lead">Tell me what you need help with: project structure, executive communication, responsive website delivery, or launch support.</p>
+          <p class="lead">Tell me what needs to be clarified, recovered, built, or launched. I will follow up with a practical next step.</p>
         </div>
       </section>
 
@@ -45,13 +45,13 @@
           <aside class="contact-aside" aria-label="Contact guidance">
             <div class="contact-card">
               <h2>Best next step</h2>
-              <p>Book a discovery call if you need help organizing the work, communicating it clearly, or shipping a practical web deliverable.</p>
+              <p>Book a discovery call if you need help organizing the work, communicating it clearly, recovering momentum, or shipping a practical web deliverable.</p>
             </div>
             <div class="contact-card">
               <h3>Common requests</h3>
               <ul class="check-list">
                 <li>All-in technical delivery consulting</li>
-                <li>Responsive HTML/CSS website build</li>
+                <li>Responsive website build</li>
                 <li>Project setup, roadmap, or governance</li>
                 <li>Executive update or stakeholder message</li>
                 <li>1:1 PM guidance</li>
@@ -60,14 +60,13 @@
           </aside>
 
           <div class="form-card">
-            <!-- Replace the action URL with your Formspree, Netlify, or Squarespace form endpoint before publishing. -->
-            <form class="contact-form" data-inquiry-form action="https://formspree.io/f/your-form-id" method="post">
+            <form class="contact-form" data-inquiry-form action="mailto:mikejferrari12@gmail.com?subject=Website%20Inquiry" method="post" enctype="text/plain">
               <div class="field-group">
-                <label for="name">Name</label>
+                <label for="name">Name<span class="required-marker" aria-hidden="true">*</span></label>
                 <input id="name" name="name" type="text" autocomplete="name" required>
               </div>
               <div class="field-group">
-                <label for="email">Email</label>
+                <label for="email">Email<span class="required-marker" aria-hidden="true">*</span></label>
                 <input id="email" name="email" type="email" autocomplete="email" required>
               </div>
               <div class="field-group">
@@ -75,20 +74,19 @@
                 <input id="company" name="company" type="text" autocomplete="organization">
               </div>
               <div class="field-group">
-                <label for="need">What do you need help with?</label>
+                <label for="need">What do you need help with?<span class="required-marker" aria-hidden="true">*</span></label>
                 <textarea id="need" name="need" required></textarea>
               </div>
               <div class="field-group">
-                <label for="service">Service interest</label>
-                <select id="service" name="service_interest">
+                <label for="service">Service interest<span class="required-marker" aria-hidden="true">*</span></label>
+                <select id="service" name="service_interest" required>
                   <option value="">Select one</option>
                   <option>1:1 PM guidance</option>
                   <option>All-in technical delivery consulting</option>
-                  <option>Responsive HTML/CSS website build</option>
-                  <option>GitHub Pages / static deployment support</option>
-                  <option>Project setup / roadmap / governance</option>
+                  <option>Responsive website build</option>
+                  <option>Website launch and hosting support</option>
+                  <option>Project setup, roadmap, or governance</option>
                   <option>Executive communication support</option>
-                  <option>1:1 PM guidance</option>
                   <option>Red/yellow project recovery</option>
                 </select>
               </div>
@@ -106,9 +104,9 @@
                 <label for="status">Current project health</label>
                 <select id="status" name="project_health">
                   <option value="">Select one</option>
-                  <option>Green / mostly on track</option>
-                  <option>Yellow / needs attention</option>
-                  <option>Red / needs recovery</option>
+                  <option>Green, mostly on track</option>
+                  <option>Yellow, needs attention</option>
+                  <option>Red, needs recovery</option>
                   <option>Not sure yet</option>
                   <option>Not applicable</option>
                 </select>
@@ -125,7 +123,7 @@
                 </select>
               </div>
               <div class="field-group">
-                <label for="next-step">Preferred next step</label>
+                <label for="next-step">Preferred next step<span class="required-marker" aria-hidden="true">*</span></label>
                 <select id="next-step" name="next_step" required>
                   <option value="">Select one</option>
                   <option>Call</option>

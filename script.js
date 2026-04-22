@@ -15,12 +15,8 @@ if (inquiryForm && formStatus) {
   inquiryForm.addEventListener("submit", (event) => {
     const action = inquiryForm.getAttribute("action") || "";
 
-    if (action.includes("your-form-id")) {
-      event.preventDefault();
-      formStatus.textContent = "The inquiry form needs a connected endpoint before it can send.";
-      return;
-    }
-
-    formStatus.textContent = "Sending your inquiry...";
+    formStatus.textContent = action.startsWith("mailto:")
+      ? "Opening your email app to send the inquiry..."
+      : "Sending your inquiry...";
   });
 }
