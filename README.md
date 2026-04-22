@@ -7,7 +7,6 @@ Static HTML website for Clarpoint, an advisory firm focused on project clarity, 
 - `index.html` - home page
 - `services.html` - consolidated consulting packages for advisory support, responsive websites, project plans, communications, governance, and PM guidance
 - `about.html` - Clarpoint positioning and Michael Ferrari background
-- `results.html` - anonymized commercial/federal/enterprise proof points, recovery examples, and responsive website delivery examples
 - `contact.html` - inquiry form
 - `styles.css` - shared visual design and responsive layout
 - `script.js` - mobile navigation and contact form status message

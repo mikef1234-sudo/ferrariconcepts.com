@@ -555,6 +555,10 @@ p {
   gap: 14px;
 }
 
+.core-services {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 .service-card {
   min-height: 280px;
   display: grid;
